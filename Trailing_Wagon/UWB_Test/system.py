@@ -1,7 +1,11 @@
 from math import sqrt
 import numpy as np
 from scipy.optimize import fsolve
+'''
+Trilateration Technique using scipy.optimize
 
+Author: Matthew Alvarez
+'''
 class system:
 
     def __init__(self, a_pos, b_pos, c_pos):

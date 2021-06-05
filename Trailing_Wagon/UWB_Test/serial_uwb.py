@@ -1,5 +1,9 @@
 import serial
+'''
+Serial interface for input/output of DWM1001 sensor data, preliminary tests
 
+Author: Rembert Sison
+'''
 serial0 = serial.Serial("/dev/ttyACM0", 115200, timeout = 0)
 serial1 = serial.Serial("/dev/ttyACM1", 115200, timeout = 0)
 serial2 = serial.Serial("/dev/ttyACM2", 115200, timeout = 0)'
